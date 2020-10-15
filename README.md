@@ -1,0 +1,2 @@
+# natours
+A simple website
