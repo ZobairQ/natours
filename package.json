@@ -1,0 +1,22 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page for natours",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass ./sass/main.scss ./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zobairq/natours.git"
+  },
+  "author": "Zobair Qauomi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zobairq/natours/issues"
+  },
+  "homepage": "https://github.com/zobairq/natours#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
