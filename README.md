@@ -3,3 +3,7 @@
 # natours
 
 A simple website
+
+## Resources
+
+- Icons: [Linea Icons](https://linea.io/)
