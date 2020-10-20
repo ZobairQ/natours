@@ -1,6 +1,6 @@
 [![time tracker](https://wakatime.com/badge/github/ZobairQ/natours.svg)](https://wakatime.com/badge/github/ZobairQ/natours)
 
-# natours
+# [Natours](https://zobairq.github.io/natours/)
 
 A simple website
 
