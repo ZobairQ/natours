@@ -7,4 +7,4 @@ A simple website
 ## Resources
 
 - Icons: [Linea Icons](https://linea.io/)
-- Photos: [Unplash](https://unsplash.com/)
+- Photos: [Unsplash](https://unsplash.com/)
