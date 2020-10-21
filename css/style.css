@@ -212,7 +212,7 @@ body {
   .card__side {
     background-color: orangered;
     height: 50rem;
-    transition: all 1s ease;
+    transition: all 8s ease;
     position: absolute;
     top: 0;
     left: 0;
@@ -233,7 +233,7 @@ body {
       .card__side--back-3 {
         background-image: linear-gradient(to right, #2998ff, #5643fa); }
   .card:hover .card__side--font {
-    transform: rotateY(180deg); }
+    transform: rotateY(-180deg); }
   .card:hover .card__side--back {
     transform: rotateY(0); }
 
