@@ -12,7 +12,7 @@ A simple website
 
 ## Grid System
 
-I have built a custom grid system using the float. The grid has been used in this project.
+I have built a custom grid system using floats. The grid has been used in this project.
 
 Here is a cheat-sheet for the grid system.
 
