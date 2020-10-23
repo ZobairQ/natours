@@ -8,6 +8,7 @@ A simple website
 
 - Icons: [Linea Icons](https://linea.io/)
 - Photos: [Unsplash](https://unsplash.com/)
+- Videos: [Coverr](https://coverr.co/)
 
 ## Grid System
 
