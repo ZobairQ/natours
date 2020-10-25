@@ -12,15 +12,18 @@
     right: 6rem;
     border-radius: 50%;
     z-index: 2000;
+    box-shadow: 0 1rem 3rem rgba($color-black, 0.1);
   }
 
   &__nav {
+    display: none;
     height: 100vh;
     width: 100%;
     position: fixed;
     top: 0;
     right: 0;
     z-index: 1500;
+    transform: display .8s;
   }
   &__background {
     height: 6rem;
@@ -34,13 +37,14 @@
       $color-primary-dark
     );
     z-index: 1000;
-    @include scale(100);
+    transition: transform .8s cubic-bezier(0.83, 0, 0.17, 1);
   }
 
   &__list {
     @include center-horisontal-vertical;
     list-style: none;
     text-align: center;
+    width: 100%;
   }
   &__item {
     margin: 1rem;
@@ -63,9 +67,9 @@
       );
       background-size: 250%;
       transition: all 0.4s;
-      span{
-          margin-right:1.5rem;
-          display: inline-block;
+      span {
+        margin-right: 1.5rem;
+        display: inline-block;
       }
     }
 
@@ -75,5 +79,13 @@
       color: $color-primary-dark;
       transform: translateX(1rem);
     }
+  }
+
+  &__checkbox:checked ~ &__nav {
+    display: block;
+  }
+
+  &__checkbox:checked ~ &__background {
+    @include scale(100);
   }
 }
