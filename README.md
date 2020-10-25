@@ -10,6 +10,7 @@ A simple website
 - Photos: [Unsplash](https://unsplash.com/)
 - Videos: [Coverr](https://coverr.co/)
 - cubic-bezier: [Easings](https://easings.net/)
+- cubic-bezier: [Cubic Bezier](https://cubic-bezier.com/)
 
 ## Grid System
 
