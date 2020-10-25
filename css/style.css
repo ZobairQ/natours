@@ -579,14 +579,14 @@ body {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1); }
 
 .navigation__nav {
-  display: none;
   height: 100vh;
-  width: 100%;
+  width: 0;
+  opacity: 0;
   position: fixed;
   top: 0;
   right: 0;
   z-index: 1500;
-  transform: display .8s; }
+  transition: all .8s; }
 
 .navigation__background {
   height: 6rem;
@@ -633,7 +633,8 @@ body {
   transform: translateX(1rem); }
 
 .navigation__checkbox:checked ~ .navigation__nav {
-  display: block; }
+  width: 100%;
+  opacity: 1; }
 
 .navigation__checkbox:checked ~ .navigation__background {
   -webkit-transform: scale(100);
