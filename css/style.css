@@ -510,6 +510,8 @@ body {
   .popup__text {
     font-size: 1.4rem;
     margin-bottom: 4rem;
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
     column-count: 4;
     column-gap: 4rem;
     column-rule: 0.1rem solid #eee;
