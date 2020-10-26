@@ -11,6 +11,7 @@ A simple website
 - Videos: [Coverr](https://coverr.co/)
 - cubic-bezier: [Easings](https://easings.net/)
 - cubic-bezier: [Cubic Bezier](https://cubic-bezier.com/)
+- Lorem Ipsum generator: [Lorem Ipsum Generator](https://loremipsum.io/)
 
 ## Grid System
 
