@@ -50,8 +50,8 @@ $breakpoint agurment choices:
       @content;
     }
   }
-  @if $breakPoint == big-dekstop {
-    @media (max-width: 112.5em) { // 1800px
+  @if $breakPoint == big-desktop {
+    @media (min-width: 112.5em) { // 1800px
       @content;
     }
   }
