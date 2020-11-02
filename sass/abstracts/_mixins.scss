@@ -14,8 +14,17 @@
   transform: translate(-50%, -50%);
 }
 
-@mixin scale($multipler){
+@mixin scale($multipler) {
   -webkit-transform: scale($multipler);
   -moz-transform: scale($multipler);
   transform: scale($multipler);
 }
+
+//MEIDA QUERIES
+/*
+0 - 600 px - Phone
+600 - 900px  - Tablet Portrait
+900 - 1200px - Tablet landscape
+1200 - 1800px - Normal styles
+1800px ++  Big Desktops
+*/
